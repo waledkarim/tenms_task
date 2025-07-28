@@ -311,7 +311,7 @@ export default function Header(){
 
                     <div className="flex gap-x-5 relative text-xs text-gray-600 font-semibold">
 
-                        <a className="flex gap-1 items-center group cursor-pointer select-none">
+                        <a className="flex gap-1 items-center group cursor-pointer select-none hover:text-green-500">
 
                             Class 6-12<IoIosArrowDown size={15}/>
                             <DropDownMenu extraDesign={"left-0 right-0"} items={[
@@ -342,7 +342,7 @@ export default function Header(){
                             ]}/>
 
                         </a>
-                        <a className="flex gap-1 items-center group cursor-pointer select-none">
+                        <a className="flex gap-1 items-center group cursor-pointer select-none hover:text-green-500">
 
                             Skills<IoIosArrowDown size={15}/>
                             <DropDownMenu  extraDesign={"right-0 left-0"} items={[
@@ -388,8 +388,8 @@ export default function Header(){
                                     }
                             ]}/>
                         </a>
-                        <a className="cursor-pointer select-none">Admission</a>
-                        <a className="flex gap-1 items-center group cursor-pointer select-none">
+                        <a className="cursor-pointer select-none hover:text-green-500">Admission</a>
+                        <a className="flex gap-1 items-center group cursor-pointer select-none hover:text-green-500">
 
                             More<IoIosArrowDown size={15}/>
                             <DropDownMenuTwo extraDesign={"left-0 right-0"} items={[

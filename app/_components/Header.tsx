@@ -140,7 +140,7 @@ export default function Header(){
                         {/* nav only in XL SCREENS */}
                         <nav className="hidden xl:flex gap-x-3 text-gray-600 font-medium">
 
-                            <a className="flex gap-1 items-center relative group cursor-pointer select-none">
+                            <a className="flex gap-1 items-center relative group cursor-pointer select-none hover:text-green-500">
 
                                 Class 6-12<IoIosArrowDown size={15}/>
                                 <DropDownMenu extraDesign={"w-[320px] left-0"} items={[
@@ -171,7 +171,7 @@ export default function Header(){
                                 ]}/>
 
                             </a>
-                            <a className="flex gap-1 items-center relative group cursor-pointer select-none">
+                            <a className="flex gap-1 items-center relative group cursor-pointer select-none hover:text-green-500">
 
                                 Skills<IoIosArrowDown size={15}/>
                                 <DropDownMenu  extraDesign={"w-[320px] left-0"} items={[
@@ -218,8 +218,8 @@ export default function Header(){
                                 ]}/>
 
                             </a>
-                            <a className="cursor-pointer select-none">Admission</a>
-                            <a className="flex gap-1 items-center relative group cursor-pointer select-none">
+                            <a className="cursor-pointer select-none hover:text-green-500">Admission</a>
+                            <a className="flex gap-1 items-center relative group cursor-pointer select-none hover:text-green-500">
                                 
                                 Online Batch<IoIosArrowDown size={15}/>
                                 <DropDownMenuTwo extraDesign={"w-[250px] right-0"} items={[
@@ -228,7 +228,7 @@ export default function Header(){
                                 ]}/>
 
                             </a>
-                            <a className="flex gap-1 items-center relative group cursor-pointer select-none">
+                            <a className="flex gap-1 items-center relative group cursor-pointer select-none hover:text-green-500">
 
                                 English Centre<IoIosArrowDown size={15}/>
                                 <DropDownMenu extraDesign={"w-[320px] right-0"} items={[
@@ -255,7 +255,7 @@ export default function Header(){
                                 ]}/>
 
                             </a>
-                            <a className="flex gap-1 items-center relative group cursor-pointer select-none">
+                            <a className="flex gap-1 items-center relative group cursor-pointer select-none hover:text-green-500">
 
                                 More<IoIosArrowDown size={15}/>
                                 <DropDownMenuTwo extraDesign={"w-[320px] right-0"} items={[

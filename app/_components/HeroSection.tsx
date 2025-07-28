@@ -5,7 +5,7 @@ import HeroPara from "./multi-language-components/HeroPara";
 export default function HeroSection(){
 
     return(
-        <section className="bg-[url(https://cdn.10minuteschool.com/images/ui_%281%29_1716445506383.jpeg)] bg-center bg-cover">
+        <section className="bg-gradient-to-br from-blue-950 via-blue-900 to-blue-700 bg-center bg-cover">
 
             <div className="relative wrapper xl:pl-32 md:flex md:items-center min-h-[300px]">
 

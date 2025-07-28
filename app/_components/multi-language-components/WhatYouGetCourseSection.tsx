@@ -4,11 +4,11 @@ import { useEffect, useState } from "react";
 import { useLanguageContext } from "../../_context/LanguageContext";
 
 
-export default function WhatYouGetInCourseSection({ extraClass }){
+export default function WhatYouGetInCourseSection({ extraClass }: { extraClass?: string }){
 
     const { lang } = useLanguageContext();
-    const [data, setData] = useState([]);
-    const [text, setText] = useState("");
+    const [data, setData] = useState<{icon: string, text: string}[]>([]);
+    const [text, setText] = useState<{name: string}>({name: ""});
 
     useEffect(() => {
         (async function(){
@@ -50,12 +50,12 @@ export default function WhatYouGetInCourseSection({ extraClass }){
 
                 {
                     data && data.map((item, ind) => (
-                        <div key={ind} class="flex items-center mb-3 leading-5">
+                        <div key={ind} className="flex items-center mb-3 leading-5">
 
-                            <div class="inline-block h-[20px] w-[20px] opacity-0 transition-opacity duration-300 ease-in-out" style={{fontSize: "0px", opacity: "1"}}>
+                            <div className="inline-block h-[20px] w-[20px] opacity-0 transition-opacity duration-300 ease-in-out" style={{fontSize: "0px", opacity: "1"}}>
                                 <img alt="icon" width="20" height="20" src={item.icon}/>
                             </div>
-                            <h4 class="mb-0 inline-block pl-4 tracking-[0.005em] text-[#111827]">{item.text}</h4>
+                            <h4 className="mb-0 inline-block pl-4 tracking-[0.005em] text-[#111827]">{item.text}</h4>
 
                         </div>
                     ))

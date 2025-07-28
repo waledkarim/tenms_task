@@ -41,6 +41,7 @@ export default function Header(){
                                 src={"https://cdn.10minuteschool.com/images/svg/10mslogo-svg.svg"}
                                 width={100}
                                 height={28}
+                                alt="10MS Logo"
                             />
                         </div>
 
@@ -61,42 +62,42 @@ export default function Header(){
                                     <ul>
 
                                         <li className="block cursor-pointer px-5 py-1.5 hover:bg-[#F3F4F6]">
-                                            <div class="flex items-center justify-between">
-                                                <div class="flex items-center gap-3 text-sm font-normal text-[#6B7280]">
+                                            <div className="flex items-center justify-between">
+                                                <div className="flex items-center gap-3 text-sm font-normal text-[#6B7280]">
                                                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#9CA3AF" height="16" width="16" xmlns="http://www.w3.org/2000/svg" style={{color: "rgb(156, 163, 175)"}}><path d="M456.69 421.39 362.6 327.3a173.81 173.81 0 0 0 34.84-104.58C397.44 126.38 319.06 48 222.72 48S48 126.38 48 222.72s78.38 174.72 174.72 174.72A173.81 173.81 0 0 0 327.3 362.6l94.09 94.09a25 25 0 0 0 35.3-35.3zM97.92 222.72a124.8 124.8 0 1 1 124.8 124.8 124.95 124.95 0 0 1-124.8-124.8z"></path></svg>
-                                                    <p class="truncate block max-w-[190px]">HSC 25 শেষ মুহূর্তের প্রস্তুতি কোর্স</p>
+                                                    <p className="truncate block max-w-[190px]">HSC 25 শেষ মুহূর্তের প্রস্তুতি কোর্স</p>
                                                 </div>
                                             </div>
                                         </li>
                                         <li className="block cursor-pointer px-5 py-1.5 hover:bg-[#F3F4F6]">
-                                            <div class="flex items-center justify-between">
-                                                <div class="flex items-center gap-3 text-sm font-normal text-[#6B7280]">
+                                            <div className="flex items-center justify-between">
+                                                <div className="flex items-center gap-3 text-sm font-normal text-[#6B7280]">
                                                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#9CA3AF" height="16" width="16" xmlns="http://www.w3.org/2000/svg" style={{color: "rgb(156, 163, 175)"}}><path d="M456.69 421.39 362.6 327.3a173.81 173.81 0 0 0 34.84-104.58C397.44 126.38 319.06 48 222.72 48S48 126.38 48 222.72s78.38 174.72 174.72 174.72A173.81 173.81 0 0 0 327.3 362.6l94.09 94.09a25 25 0 0 0 35.3-35.3zM97.92 222.72a124.8 124.8 0 1 1 124.8 124.8 124.95 124.95 0 0 1-124.8-124.8z"></path></svg>
-                                                    <p class="truncate block max-w-[190px]">hsc 26</p>
+                                                    <p className="truncate block max-w-[190px]">hsc 26</p>
                                                 </div>
                                             </div>
                                         </li>
                                         <li className="block cursor-pointer px-5 py-1.5 hover:bg-[#F3F4F6]">
-                                            <div class="flex items-center justify-between">
-                                                <div class="flex items-center gap-3 text-sm font-normal text-[#6B7280]">
+                                            <div className="flex items-center justify-between">
+                                                <div className="flex items-center gap-3 text-sm font-normal text-[#6B7280]">
                                                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#9CA3AF" height="16" width="16" xmlns="http://www.w3.org/2000/svg" style={{color: "rgb(156, 163, 175)"}}><path d="M456.69 421.39 362.6 327.3a173.81 173.81 0 0 0 34.84-104.58C397.44 126.38 319.06 48 222.72 48S48 126.38 48 222.72s78.38 174.72 174.72 174.72A173.81 173.81 0 0 0 327.3 362.6l94.09 94.09a25 25 0 0 0 35.3-35.3zM97.92 222.72a124.8 124.8 0 1 1 124.8 124.8 124.95 124.95 0 0 1-124.8-124.8z"></path></svg>
-                                                    <p class="truncate block max-w-[190px]">english</p>
+                                                    <p className="truncate block max-w-[190px]">english</p>
                                                 </div>
                                             </div>
                                         </li>
                                         <li className="block cursor-pointer px-5 py-1.5 hover:bg-[#F3F4F6]">
-                                            <div class="flex items-center justify-between">
-                                                <div class="flex items-center gap-3 text-sm font-normal text-[#6B7280]">
+                                            <div className="flex items-center justify-between">
+                                                <div className="flex items-center gap-3 text-sm font-normal text-[#6B7280]">
                                                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#9CA3AF" height="16" width="16" xmlns="http://www.w3.org/2000/svg" style={{color: "rgb(156, 163, 175)"}}><path d="M456.69 421.39 362.6 327.3a173.81 173.81 0 0 0 34.84-104.58C397.44 126.38 319.06 48 222.72 48S48 126.38 48 222.72s78.38 174.72 174.72 174.72A173.81 173.81 0 0 0 327.3 362.6l94.09 94.09a25 25 0 0 0 35.3-35.3zM97.92 222.72a124.8 124.8 0 1 1 124.8 124.8 124.95 124.95 0 0 1-124.8-124.8z"></path></svg>
-                                                    <p class="truncate block max-w-[190px]">ielts</p>
+                                                    <p className="truncate block max-w-[190px]">ielts</p>
                                                 </div>
                                             </div>
                                         </li>
                                         <li className="block cursor-pointer px-5 py-1.5 hover:bg-[#F3F4F6]">
-                                            <div class="flex items-center justify-between">
-                                                <div class="flex items-center gap-3 text-sm font-normal text-[#6B7280]">
+                                            <div className="flex items-center justify-between">
+                                                <div className="flex items-center gap-3 text-sm font-normal text-[#6B7280]">
                                                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#9CA3AF" height="16" width="16" xmlns="http://www.w3.org/2000/svg" style={{color: "rgb(156, 163, 175)"}}><path d="M456.69 421.39 362.6 327.3a173.81 173.81 0 0 0 34.84-104.58C397.44 126.38 319.06 48 222.72 48S48 126.38 48 222.72s78.38 174.72 174.72 174.72A173.81 173.81 0 0 0 327.3 362.6l94.09 94.09a25 25 0 0 0 35.3-35.3zM97.92 222.72a124.8 124.8 0 1 1 124.8 124.8 124.95 124.95 0 0 1-124.8-124.8z"></path></svg>
-                                                    <p class="truncate block max-w-[190px]">৯ম শ্রেণি - অনলাইন ব্যাচ ২০২৫</p>
+                                                    <p className="truncate block max-w-[190px]">৯ম শ্রেণি - অনলাইন ব্যাচ ২০২৫</p>
                                                 </div>
                                             </div>
                                         </li>
@@ -104,7 +105,7 @@ export default function Header(){
                                     </ul>
 
                                 </div>
-                                <div class="fixed top-[calc(100vh - 40px)] left-0 w-full h-full backdrop bg-black/50 z-[-1]"/>
+                                <div className="fixed top-[calc(100vh - 40px)] left-0 w-full h-full backdrop bg-black/50 z-[-1]"/>
 
                             </div>
 
@@ -346,43 +347,43 @@ export default function Header(){
                             Skills<IoIosArrowDown size={15}/>
                             <DropDownMenu  extraDesign={"right-0 left-0"} items={[
                                     {
-                                        icon: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="w-[20px] h-[20px]"><path fill="#0FD8DE" d="M12.012 7.98a.34.34 0 01.357 0l9.954 6.116a.34.34 0 010 .58l-9.954 6.116a.341.341 0 01-.357 0l-9.955-6.115a.34.34 0 010-.581l9.955-6.115z"></path><path fill="#2696FF" d="M12.012 3.208a.34.34 0 01.356 0l9.955 6.115a.34.34 0 010 .581l-9.955 6.115a.34.34 0 01-.356 0L2.057 9.904a.34.34 0 010-.58l9.955-6.116z"></path><path fill="#0C7EE9" d="M18.912 12l-6.722 4.129L5.47 12l6.721-4.129L18.912 12z"></path></svg>,
+                                        icon: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" className="w-[20px] h-[20px]"><path fill="#0FD8DE" d="M12.012 7.98a.34.34 0 01.357 0l9.954 6.116a.34.34 0 010 .58l-9.954 6.116a.341.341 0 01-.357 0l-9.955-6.115a.34.34 0 010-.581l9.955-6.115z"></path><path fill="#2696FF" d="M12.012 3.208a.34.34 0 01.356 0l9.955 6.115a.34.34 0 010 .581l-9.955 6.115a.34.34 0 01-.356 0L2.057 9.904a.34.34 0 010-.58l9.955-6.116z"></path><path fill="#0C7EE9" d="M18.912 12l-6.722 4.129L5.47 12l6.721-4.129L18.912 12z"></path></svg>,
                                         name: "All Courses"
                                     },
                                     {
-                                        icon: <img name="skills" alt="skills" data-original-src="https://cdn.10minuteschool.com/images/icons8-speech-bubble_1710918691528.png" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" src="https://cdn.10minuteschool.com/images/icons8-speech-bubble_1710918691528.png" style={{color: "transparent"}}></img>,
+                                        icon: <img alt="skills" data-original-src="https://cdn.10minuteschool.com/images/icons8-speech-bubble_1710918691528.png" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" src="https://cdn.10minuteschool.com/images/icons8-speech-bubble_1710918691528.png" style={{color: "transparent"}}></img>,
                                         name: "Language Learning"
                                     },
                                     {
-                                        icon: <img name="skills" alt="skills" data-original-src="https://cdn.10minuteschool.com/images/Group_1116605411_1710918747102.png" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" src="https://cdn.10minuteschool.com/images/Group_1116605411_1710918747102.png" style={{color: "transparent"}}></img>,
+                                        icon: <img  alt="skills" data-original-src="https://cdn.10minuteschool.com/images/Group_1116605411_1710918747102.png" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" src="https://cdn.10minuteschool.com/images/Group_1116605411_1710918747102.png" style={{color: "transparent"}}></img>,
                                         name: "Freelancing"
                                     },
                                     {
-                                        icon: <img name="skills" alt="skills" data-original-src="https://cdn.10minuteschool.com/images/bundle_1708241463619.png" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" src="https://cdn.10minuteschool.com/images/bundle_1708241463619.png" style={{color: "transparent"}}></img>,
+                                        icon: <img alt="skills" data-original-src="https://cdn.10minuteschool.com/images/bundle_1708241463619.png" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" src="https://cdn.10minuteschool.com/images/bundle_1708241463619.png" style={{color: "transparent"}}></img>,
                                         name: "Bundle"
                                     },
                                     {
-                                        icon: <img name="skills" alt="skills" data-original-src="https://cdn.10minuteschool.com/images/Group_1125212631_1710918785394.png" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" src="https://cdn.10minuteschool.com/images/Group_1125212631_1710918785394.png" style={{color: "transparent"}}></img>,
+                                        icon: <img alt="skills" data-original-src="https://cdn.10minuteschool.com/images/Group_1125212631_1710918785394.png" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" src="https://cdn.10minuteschool.com/images/Group_1125212631_1710918785394.png" style={{color: "transparent"}}></img>,
                                         name: "Skills and IT"
                                     },
                                     {
-                                        icon: <img name="skills" alt="skills" data-original-src="https://cdn.10minuteschool.com/images/Group_1116604786_1710918818930.png" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" src="https://cdn.10minuteschool.com/images/Group_1116604786_1710918818930.png" style={{color: "transparent"}}></img>,
+                                        icon: <img alt="skills" data-original-src="https://cdn.10minuteschool.com/images/Group_1116604786_1710918818930.png" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" src="https://cdn.10minuteschool.com/images/Group_1116604786_1710918818930.png" style={{color: "transparent"}}></img>,
                                         name: "Design and Creative"
                                     },
                                     {
-                                        icon: <img name="skills" alt="skills" data-original-src="https://cdn.10minuteschool.com/fonts/Job-ready-page-icon.png" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" src="https://cdn.10minuteschool.com/fonts/Job-ready-page-icon.png" style={{color: "transparent"}}></img>,
+                                        icon: <img alt="skills" data-original-src="https://cdn.10minuteschool.com/fonts/Job-ready-page-icon.png" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" src="https://cdn.10minuteschool.com/fonts/Job-ready-page-icon.png" style={{color: "transparent"}}></img>,
                                         name: "Career Readiness"
                                     },
                                     {
-                                        icon: <img name="skills" alt="skills" data-original-src="https://cdn.10minuteschool.com/images/Group_1710918880992.png" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" src="https://cdn.10minuteschool.com/images/Group_1710918880992.png" style={{color: "transparent"}}></img>,
+                                        icon: <img alt="skills" data-original-src="https://cdn.10minuteschool.com/images/Group_1710918880992.png" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" src="https://cdn.10minuteschool.com/images/Group_1710918880992.png" style={{color: "transparent"}}></img>,
                                         name: "Kids (Age 7-14)"
                                     },
                                     {
-                                        icon: <img name="skills" alt="skills" data-original-src="https://cdn.10minuteschool.com/images/developer_1_%281%29_1710918943745.png" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" src="https://cdn.10minuteschool.com/images/developer_1_%281%29_1710918943745.png" style={{color: "transparent"}}></img>,
+                                        icon: <img alt="skills" data-original-src="https://cdn.10minuteschool.com/images/developer_1_%281%29_1710918943745.png" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" src="https://cdn.10minuteschool.com/images/developer_1_%281%29_1710918943745.png" style={{color: "transparent"}}></img>,
                                         name: "Professional"
                                     },
                                     {
-                                        icon: <img name="skills" alt="skills" data-original-src="https://cdn.10minuteschool.com/images/Group_1116604282_1710918903488.png" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" src="https://cdn.10minuteschool.com/images/Group_1116604282_1710918903488.png" style={{color: "transparent"}}></img>,
+                                        icon: <img alt="skills" data-original-src="https://cdn.10minuteschool.com/images/Group_1116604282_1710918903488.png" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" src="https://cdn.10minuteschool.com/images/Group_1116604282_1710918903488.png" style={{color: "transparent"}}></img>,
                                         name: "Free"
                                     }
                             ]}/>

@@ -16,13 +16,13 @@ export default function HeroSection(){
                         <div className="flex items-center">
 
                             <div className="flex flex-col">
-                                <h1 class="text-white text-[21px] font-bold md:text-4xl mb-2">IELTS Course by Munzereen Shahid</h1>
+                                <h1 className="text-white text-[21px] font-bold md:text-4xl mb-2">IELTS Course by Munzereen Shahid</h1>
                                 <p className="flex flex-col">
                                     <button className="flex flex-wrap gap-3 text-white">
-                                        <span class="inline-block">
-                                            <img class="md:w-[130px] w-[100px]" src="https://cdn.10minuteschool.com/images/Dev_Handoff_Q1_24_Frame_2_1725444418666.png"/>
+                                        <span className="inline-block">
+                                            <img className="md:w-[130px] w-[100px]" src="https://cdn.10minuteschool.com/images/Dev_Handoff_Q1_24_Frame_2_1725444418666.png"/>
                                         </span>
-                                        <span class="inline-block text-sm md:text-base font-medium">
+                                        <span className="inline-block text-sm md:text-base font-medium">
                                             (81.8% শিক্ষার্থী কোর্স শেষে ৫ রেটিং দিয়েছেন)
                                         </span>
                                     </button>

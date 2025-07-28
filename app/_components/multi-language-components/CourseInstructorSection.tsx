@@ -7,7 +7,7 @@ import { IoIosArrowDropright } from "react-icons/io";
 export default function CourseInstructorSection(){
 
     const { lang } = useLanguageContext();
-    const [data, setData] = useState({});
+    const [data, setData] = useState<{name: string, values: {name: string, image: string}[]}>({name: "", values: [{name: "", image: ""}]});
 
     useEffect(() => {
         (async function(){
@@ -36,7 +36,7 @@ export default function CourseInstructorSection(){
                         <div className="md:border md:rounded-lg md:p-5 flex">
 
                             <div className="self-center">
-                                <img name="Instructor Munzereen Shahid" alt="Instructor Munzereen Shahid" width="73" height="73" src={data.values[0].image} className="rounded-full" />
+                                <img alt="Instructor Munzereen Shahid" width="73" height="73" src={data.values[0].image} className="rounded-full" />
                             </div>
                             <div className="flex-1 ml-4">
 

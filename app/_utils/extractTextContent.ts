@@ -1,4 +1,4 @@
-export default function extractHTML(htmlString, selector) {
+export default function extractHTML(htmlString: string, selector: string){
 
     if (typeof window !== "undefined") {
 

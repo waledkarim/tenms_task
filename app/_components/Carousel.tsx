@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { LeftArrowSVG, PlayBtnSVG, RightArrowSVG, SmallPlayBtnSVG } from "../_svg";
 
-export default function Carousel({ extraClass }){
+export default function Carousel({ extraClass }: {extraClass?: string}){
 
     const [media, setMedia] = useState([]);
 

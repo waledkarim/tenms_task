@@ -34,42 +34,42 @@ export default function SideBar(){
                         open.isClassOpen &&
                         <ul className="">
 
-                            <li class="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
-                                <span class="mr-4">
+                            <li className="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
+                                <span className="mr-4">
                                     <HSCSVG />
                                 </span>
-                                <span class="text-[#111827] text-base font-medium">HSC</span>
+                                <span className="text-[#111827] text-base font-medium">HSC</span>
                             </li>
-                            <li class="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
-                                <span class="mr-4">
+                            <li className="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
+                                <span className="mr-4">
                                     <ClassTenSVG />
                                 </span>
-                                <span class="text-[#111827] text-base font-medium">Class Ten</span>
+                                <span className="text-[#111827] text-base font-medium">Class Ten</span>
                             </li>
-                            <li class="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
-                                <span class="mr-4">
+                            <li className="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
+                                <span className="mr-4">
                                     <ClassNineSVG />
                                 </span>
-                                <span class="text-[#111827] text-base font-medium">Class Nine</span>
+                                <span className="text-[#111827] text-base font-medium">Class Nine</span>
                             </li>
-                            <li class="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
-                                <span class="mr-4">
+                            <li className="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
+                                <span className="mr-4">
                                     <ClassEightSVG />
                                 </span>
-                                <span class="text-[#111827] text-base font-medium">Class Eight</span>
+                                <span className="text-[#111827] text-base font-medium">Class Eight</span>
                             </li>
-                            <li class="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
-                                <span class="mr-4">
+                            <li className="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
+                                <span className="mr-4">
                                     <ClassSevenSVG />
                                 </span>
-                                <span class="text-[#111827] text-base font-medium">Class Seven</span>
+                                <span className="text-[#111827] text-base font-medium">Class Seven</span>
                             </li>
                             
-                            <li class="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
-                                <span class="mr-4">
+                            <li className="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
+                                <span className="mr-4">
                                     <ClassSixSVG />
                                 </span>
-                                <span class="text-[#111827] text-base font-medium">Class Six</span>
+                                <span className="text-[#111827] text-base font-medium">Class Six</span>
                             </li>
 
                         </ul>
@@ -88,70 +88,70 @@ export default function SideBar(){
                         open.isSkillsOpen &&
                         <ul className="">
 
-                            <li class="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
-                                <span class="mr-4">
+                            <li className="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
+                                <span className="mr-4">
                                     <AllCoursesSVG />
                                 </span>
-                                <span class="text-[#111827] text-base font-medium">All courses</span>
+                                <span className="text-[#111827] text-base font-medium">All courses</span>
                             </li>
-                            <li class="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
-                                <span class="mr-4">
+                            <li className="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
+                                <span className="mr-4">
                                     <LanguageLearningSVG />
                                 </span>
-                                <span class="text-[#111827] text-base font-medium">Language Learning</span>
+                                <span className="text-[#111827] text-base font-medium">Language Learning</span>
                             </li>
-                            <li class="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
-                                <span class="mr-4">
+                            <li className="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
+                                <span className="mr-4">
                                     <FreelancingSVG />
                                 </span>
-                                <span class="text-[#111827] text-base font-medium">Freelancing</span>
+                                <span className="text-[#111827] text-base font-medium">Freelancing</span>
                             </li>
-                            <li class="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
-                                <span class="mr-4">
+                            <li className="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
+                                <span className="mr-4">
                                     <BundleSVG />
                                 </span>
-                                <span class="text-[#111827] text-base font-medium">Bundle</span>
+                                <span className="text-[#111827] text-base font-medium">Bundle</span>
                             </li>
-                            <li class="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
-                                <span class="mr-4">
+                            <li className="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
+                                <span className="mr-4">
                                     <SkillsAndITSVG />
                                 </span>
-                                <span class="text-[#111827] text-base font-medium">Skills and IT</span>
+                                <span className="text-[#111827] text-base font-medium">Skills and IT</span>
                             </li>
                             
-                            <li class="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
-                                <span class="mr-4">
+                            <li className="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
+                                <span className="mr-4">
                                     <DesignAndCreativeSVG />
                                 </span>
-                                <span class="text-[#111827] text-base font-medium">Design and Creative</span>
+                                <span className="text-[#111827] text-base font-medium">Design and Creative</span>
                             </li>
 
-                            <li class="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
-                                <span class="mr-4">
+                            <li className="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
+                                <span className="mr-4">
                                     <CareerReadinessSVG />
                                 </span>
-                                <span class="text-[#111827] text-base font-medium">Career Readiness</span>
+                                <span className="text-[#111827] text-base font-medium">Career Readiness</span>
                             </li>
 
-                            <li class="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
-                                <span class="mr-4">
+                            <li className="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
+                                <span className="mr-4">
                                     <KidsAgeSevenFourteenSVG />
                                 </span>
-                                <span class="text-[#111827] text-base font-medium">Kid's (Age 7-14)</span>
+                                <span className="text-[#111827] text-base font-medium">Kid's (Age 7-14)</span>
                             </li>
 
-                            <li class="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
-                                <span class="mr-4">
+                            <li className="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
+                                <span className="mr-4">
                                     <ProfessionalSVG />
                                 </span>
-                                <span class="text-[#111827] text-base font-medium">Professional</span>
+                                <span className="text-[#111827] text-base font-medium">Professional</span>
                             </li>
 
-                            <li class="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
-                                <span class="mr-4">
+                            <li className="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
+                                <span className="mr-4">
                                     <FreeSVG />
                                 </span>
-                                <span class="text-[#111827] text-base font-medium">Free</span>
+                                <span className="text-[#111827] text-base font-medium">Free</span>
                             </li>
 
                         </ul>
@@ -177,11 +177,11 @@ export default function SideBar(){
                         open.isOnlineBatchOpen &&
                         <ul className="">
 
-                            <li class="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
-                                <span class="text-[#111827] text-base font-medium">Online Batch (Class 6-10)</span>
+                            <li className="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
+                                <span className="text-[#111827] text-base font-medium">Online Batch (Class 6-10)</span>
                             </li>
-                            <li class="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
-                                <span class="text-[#111827] text-base font-medium">HSC</span>
+                            <li className="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
+                                <span className="text-[#111827] text-base font-medium">HSC</span>
                             </li>
 
                         </ul>
@@ -200,30 +200,30 @@ export default function SideBar(){
                         open.isEnglishCentreOpen && 
                         <ul className="">
 
-                            <li class="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
-                                <span class="mr-4">
+                            <li className="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
+                                <span className="mr-4">
                                     <AllProgrammesSVG />
                                 </span>
-                                <span class="text-[#111827] text-base font-medium">All Programmes</span>
+                                <span className="text-[#111827] text-base font-medium">All Programmes</span>
                             </li>
-                            <li class="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
-                                <span class="mr-4">
+                            <li className="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
+                                <span className="mr-4">
                                     <IELTSProgrammeSVG />
                                 </span>
-                                <span class="text-[#111827] text-base font-medium">IELTS Programme</span>
+                                <span className="text-[#111827] text-base font-medium">IELTS Programme</span>
                             </li>
-                            <li class="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
-                                <span class="mr-4">
+                            <li className="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
+                                <span className="mr-4">
                                     <SpokenEnglishSVG />
                                 </span>
-                                <span class="text-[#111827] text-base font-medium">Spoken English (Junior)</span>
+                                <span className="text-[#111827] text-base font-medium">Spoken English (Junior)</span>
                             </li>
 
-                            <li class="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
-                                <span class="mr-4">
+                            <li className="text-[#4B5563] text-base font-medium flex items-center py-3 px-2 rounded cursor-pointer hover:bg-gray-100 ">
+                                <span className="mr-4">
                                     <KidsEnglishSVG />
                                 </span>
-                                <span class="text-[#111827] text-base font-medium">Kid's English</span>
+                                <span className="text-[#111827] text-base font-medium">Kid's English</span>
                             </li>
 
                         </ul>

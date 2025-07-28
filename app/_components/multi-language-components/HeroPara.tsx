@@ -7,7 +7,7 @@ import extractHTML from "../../_utils/extractTextContent";
 export default function HeroPara(){
 
     const { lang } = useLanguageContext();
-    const [text, setText] = useState("");
+    const [text, setText] = useState<string>("");
 
     useEffect(() => {
         (async function(){

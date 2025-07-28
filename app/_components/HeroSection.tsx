@@ -5,7 +5,7 @@ import HeroPara from "./multi-language-components/HeroPara";
 export default function HeroSection(){
 
     return(
-        <section className="bg-gradient-to-br from-blue-950 via-blue-900 to-blue-700 bg-center bg-cover">
+        <section className="bg-gradient-to-br from-sky-950 via-blue-950 to-sky-900 bg-center bg-cover">
 
             <div className="relative wrapper xl:pl-32 md:flex md:items-center min-h-[300px]">
 

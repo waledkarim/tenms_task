@@ -24,7 +24,7 @@ export default function HeroPara(){
     }, [lang]);
 
     return(
-        <p className="text-zinc-500 leading-6 font-medium text-lg py-4">
+        <p className="text-zinc-500 leading-6 font-semibold text-lg py-4">
 
             <span>
                 {

@@ -30,7 +30,7 @@ export default function Carousel({ extraClass }: {extraClass?: string}){
             {/* Preview Section */}
             <div className="relative">
 
-                <img className="opacity-50 md:opacity-60 select-none" src={media[0]?.thumbnail_url} alt="Default Image" />
+                <img className="bg-black opacity-50 md:opacity-70 select-none" src={media[0]?.thumbnail_url} alt="Default Image" />
                 <LeftArrowSVG extraDesign={"absolute left-5 top-1/2 cursor-pointer"} />
                 <PlayBtnSVG extraDesign={"absolute left-1/2 right-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 cursor-pointer"} />
                 <RightArrowSVG extraDesign={"absolute right-5 top-1/2 cursor-pointer"} />

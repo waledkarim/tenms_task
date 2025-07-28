@@ -29,13 +29,12 @@ export default function WhatYouGetInCourseSection({ extraClass }: { extraClass?:
 
 
     return(
-        <section className={`flex flex-col gap-y-6 ${extraClass} `}>
+        <section className={`flex flex-col gap-y-6 ${extraClass}`}>
 
+            {/* Enroll section */}
             <div className="w-full py-2 flex flex-col gap-y-2">
                 <div className="flex gap-x-4 items-center">
-                    <p className="text-3xl font-medium">৳3850</p>
-                    <p className="text-xl font-medium line-through">1000</p>
-                    <p></p>
+                    <p className="text-3xl font-medium">৳1000</p>
                 </div>
                 <button className="select-none bg-green-500 border-green-700 border-b-4 rounded-lg py-2 px-4 text-white w-full">
                     {
@@ -46,6 +45,7 @@ export default function WhatYouGetInCourseSection({ extraClass }: { extraClass?:
 
             <p className="text-xl font-semibold">এই কোর্সে যা থাকছে</p>
 
+            {/* checklist section */}
             <div className="flex flex-col gap-y-2">
 
                 {

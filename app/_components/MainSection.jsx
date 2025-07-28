@@ -1,3 +1,4 @@
+import CourseDetails from "./multi-language-components/CourseDetails";
 import CourseExclusiveDetailsSection from "./multi-language-components/CourseExclusieFeatureSection";
 import CourseInstructorSection from "./multi-language-components/CourseInstructorSection";
 import FreeItems from "./multi-language-components/FreeItems";
@@ -23,6 +24,8 @@ export default function MainSection(){
 
                 <CourseExclusiveDetailsSection />
                 <FreeItems />
+
+                <CourseDetails />
 
             </section>
             

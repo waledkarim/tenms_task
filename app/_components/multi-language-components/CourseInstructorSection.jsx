@@ -31,7 +31,7 @@ export default function CourseInstructorSection(){
                 data && data.values && 
                     <div id="instructors" className="mb-7">
 
-                        <h3 className="mb-4 text-xl font-semibold md:text-2xl">{data.name}</h3>
+                        <h3 className="mb-4 text-xl pt-5 font-semibold md:text-2xl">{data.name}</h3>
 
                         <div className="md:border md:rounded-lg md:p-5 flex">
 
